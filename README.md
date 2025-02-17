@@ -5,8 +5,7 @@ Este repositório contém exemplos e explicações sobre os principais conceitos
 ## Tópicos Abordados
 
 - Estrutura de um aplicativo Flutter
-- Widgets (estaduais e sem estado)
-- Layouts e design responsivo
+- Principais Widgets e suas aplicações na prática
 - Navegação e rotas
 - Gerenciamento de estado
 - Manipulação de eventos
