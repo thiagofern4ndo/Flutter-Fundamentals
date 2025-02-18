@@ -22,7 +22,23 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Center(
-        child: Text('Nossa HomePage'),
+        child: Container(
+          width: 200,
+          height: 200,
+          margin: EdgeInsets.all(10), //Espaço parte externa
+          padding: EdgeInsets.all(10),
+          decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(30),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black,
+                      blurRadius: 20,
+                      offset: Offset(10, 10),
+                    ),
+                  ],
+                  ), // Espaço parte interna
+        ),
       ),
     );
   }
